@@ -1,0 +1,293 @@
+{% load custom_filters %}
+
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="{% static 'styles.css'%}">
+
+    <title>
+        {% block title %}
+        home
+        {% endblock %}
+    </title>
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                <a class="navbar-brand" href=""><h1 class="brand">DayONE</h1></a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><h5>Tasks</h5></a>  
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'home' %}"><h5>Progress</h5></a>  
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'home' %}"><h5>Assets</h5></a>  
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about' %}"><h5>About</h5></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'help' %}"><h5>Help</h5></a>
+                        </li>
+                        {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout' %}"><h5>Logout</h5></a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'login' %}"><h5>Login</h5></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+        </div>
+    </div>
+    
+
+    {% block body %}
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-lg-4">
+                <h4>TASKS</h4>
+                <table>
+                    {% for task in tasks%}
+                    <tr>
+                        <td>
+                            <form action="{% url 'complete-task' task.id %}" method="post">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-outline-success">
+                                    ✅
+                                </button>
+                            </form>
+                        </td>
+
+                        <td>{{task.title}}</td>
+
+                        <td>
+                            {% if task.priority_icon %}
+                            <span style="font-size: 16px;">{{ task.priority_icon }}</span>
+                            {% endif %}
+                        </td>
+
+                        <td>
+                            <div class="dropdown" data-task-id="{{ task.id }}">
+                                <button class="btn btn-light dropdown-toggle custom-timer-icon" data-task-id="{{ task.id }}" type="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                                    <!-- Clock icon -->⏱️
+                                </button>
+                                <div class="dropdown-menu" data-task-id="{{ task.id }}">
+                                    <div class="custom-timer-card" data-task-id="{{ task.id }}">
+                                        <div class="dropdown-item d-flex justify-content-center align-items-center  custom-timer-card" data-task-id="{{ task.id }}">
+                                            <div class="custom-timer-display" data-task-id="{{ task.id }}">00:12</div>
+                                            <div class="ml-2">
+                                                <button class="btn btn-success custom-start-timer" data-task-id="{{ task.id }}" >Start</button>
+                                                <button class="btn btn-danger custom-pause-timer" data-task-id="{{ task.id }}" >Pause</button>
+                                                <button class="btn btn-warning custom-skip-timer" data-task-id="{{ task.id }}">Skip</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>    
+                        </td>
+                        
+                        <td>
+                            {% if task.scheduled_datetime %}
+                            {{ task.scheduled_datetime|date:"M d" }}, {{ task.scheduled_datetime|time:"H:i" }}
+                            {% else %}
+                            
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+                <form method="post" action="{% url 'add_task' %}">
+                    {% csrf_token %}
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="input-group ">
+                                    <input type="text" name="title" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Add a new task" >
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <select class="btn btn-light dropdown-toggle" aria-label="priority" name="priority">
+                                    <option value="red">❤️</option>
+                                    <option value="yellow">💛</option>
+                                    <option value="green">💚</option>
+                                  </select>
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      📆
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <input class="dropdown-item" type="datetime-local" id="scheduled_datetime" name="scheduled_datetime">
+                                    </ul>
+                                  </div>
+                                <!-- <input type="datetime-local" id="scheduled_datetime" name="scheduled_datetime" required> -->
+                            </td>
+                            <td>
+                                <button class="btn btn-primary"  type="submit">Add</button>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </form>
+
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-placement="bottom"  aria-expanded="false">
+                        Completed
+                    </button>
+                    <div class="dropdown-menu">
+                        <table>
+                            
+                                {% for task in completed_tasks %}
+                                <tr>
+                                    <td>
+                                        <form action="{% url 'remark' task.id %}" method="post">
+                                            {% csrf_token %}
+                                            <button type="submit" class="btn btn-outline-warning">🔄️</button>
+                                        </form>
+                                    </td>
+                                    <td>{{ task.title }}</td>
+                                </tr>
+                                {% endfor %}
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-lg-4">
+                <h4>PROGRESS</h4>
+                <h5>Daily Pomodoros: <span id="dailyCount"></span></h5>
+                <h5>Weekly Pomodoros:</h5>
+                <canvas id="weeklyChart" width="400" height="150"></canvas>
+                <h5>Monthly Pomodoros:</h5>
+                <canvas id="monthlyChart" width="400" height="200"></canvas>
+                <h5>Total Pomodoros:<span id="totalPomodoroCount"></span></h5>
+                <p id="totalPomodoroCount"></p>
+                <h5>Yearly Pomodoros:</h5>
+                <ul id="yearlyCounts"></ul>
+
+            </div>
+
+            <div class="col-xs-12 col-lg-4">
+                <h4>ASSETS</h4>
+                <!-- Display the user's virtual currency -->
+                <!-- <h5>Virtual Currency: ₹ {{ user.virtual_currency_balance }}</h5> -->
+                <p>Currency: <span id="virtualCurrency"></span></p>
+
+                <!-- List of products available for purchase -->
+
+                <div class="scroll-container">
+                    <div class="scroll-content">
+                        <ul class="nav nav-tabs">
+                            {% for category, products in category_products.items %}
+                                <li class="nav-item">
+                                    <a class="nav-link custom-navlink" href="#{{ category }}">{{ category }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="category-sections">
+                    {% for category, products in category_products.items %}
+                        <div id="{{ category }}" class="category-section custom-categorysection">
+                            <h2>{{ category }}</h2>
+                            <div class="row">
+                                {% for product in products %}
+                                    <div class="col-md-4 mb-4">
+                                        <div class="card">
+                                            <!-- <img src="{{ product.image.url }}" alt="{{ product.name }}"> -->
+                                            <div class="card-body">
+                                                <h5 class="card-title">{{ product.name }}</h5>
+                                                <p class="card-text">{{ product.description }}</p>
+                                                <p class="card-text">Cost:  {{ product.cost_in_pomodoros|multiply_by_25 }}</p>
+                                                {% if request.user in product.purchased_by.all %}
+                                                    <span class="badge bg-success">Owned</span>
+                                                {% else %}
+                                                    <form id="purchase-form-{{ product.id }}" action="{% url 'purchase_product' product.id %}" method="post" class="purchase-form">
+                                                        {% csrf_token %}
+                                                        <button type="submit" class="btn btn-primary purchase-button" {% if product.id in user_purchased_products %}disabled{% endif %}>
+                                                            Purchase
+                                                        </button>
+                                                    </form>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                                
+                <!-- <p>Cost: ₹ {{ product.cost_in_pomodoros|multiply_by_25 }}</p> -->
+
+            </div>
+
+        </div>
+    </div>
+    {% endblock%}
+
+    <footer>
+        <div class="footerone">
+            <a href="{% url 'home'%}"><p>home</p></a>
+            <a href="{% url 'about'%}"><p>about</p></a>
+            <a href="{% url 'help'%}"><p>help</p></a>
+            <a href="{% url 'login'%}"><p>log in</p></a>
+            <a href="{% url 'logout'%}"><p>log out</p></a>
+            <a href="{% url 'register'%}"><p>register</p></a>
+        </div>
+        <div class="footertwo">
+            <p>a Sammengi Arjun production</p>
+        </div>
+        <div class="footerthree">
+            <p>&copy;2024 dayone.All rights reserved</p>
+        </div>
+        <div class="footerfour">
+            <a href="mailto:sammengiarjun@gmail.com"><p>email</p></a>
+            <a href="https://www.linkedin.com/in/arjun-sammengi-4108a3269/"><p>linkedin</p></a>
+            <!-- <a href=""><p>instagram</p></a> -->
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="{% static 'script.js'%}"></script>
+
+    
+</body>
+</html>
