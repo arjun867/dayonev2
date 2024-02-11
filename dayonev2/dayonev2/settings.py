@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp'
+    'dayonev2'
 ]
 
 MIDDLEWARE = [
