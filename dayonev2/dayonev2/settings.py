@@ -163,3 +163,5 @@ LOGIN_URL = '/accounts/login/'  # Assuming 'login' is the name of your login vie
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
+
+SECURE_CROSS_ORIGIN_OPENER_POLICY=None
