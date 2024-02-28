@@ -79,9 +79,9 @@ def purchase_product(request, product_id):
     if request.method == 'POST':
         user = request.user
         product = Product.objects.get(pk=product_id)
-        if user.virtual_currency_balance >= product.cost_in_pomodoros:
+        if user.virtual_currency_balance >= product.cost_in_pomodoros*25:
             if not product.purchased_by.filter(id=user.id).exists():  # Check if user has already purchased the product
-                user.virtual_currency_balance -= product.cost_in_pomodoros
+                user.virtual_currency_balance -= product.cost_in_pomodoros*25
                 user.save()
                 product.purchased_by.add(user)  # Add the user to the list of purchasers
                 product.save()
