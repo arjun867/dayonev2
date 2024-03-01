@@ -478,4 +478,28 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Timer card element not found for Task ID:', taskId);
         }
     }
+
+    // document.querySelector('select[name="social_media_url"]').addEventListener('click', function() {
+    //     var socialMediaInputRow = document.getElementById('social_media_url_row');
+    //     if (this.value === '') {
+    //         socialMediaInputRow.style.display = 'none';
+    //     } else {
+    //         socialMediaInputRow.style.display = 'table-row';
+    //         document.getElementById('social_media_url_input').setAttribute('type', 'text');
+    //         document.getElementById('social_media_url_input').setAttribute('placeholder', 'Enter Social Media URL or Email');
+    //     }
+    // });
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('social_media_select').addEventListener('change', function() {
+            var socialMediaInputRow = document.getElementById('social_media_url_row');
+            if (this.value === '') {
+                socialMediaInputRow.style.display = 'none';
+            } else {
+                socialMediaInputRow.style.display = 'table-row';
+                document.getElementById('social_media_url_input').setAttribute('type', 'text');
+                document.getElementById('social_media_url_input').setAttribute('placeholder', 'Enter Social Media URL or Email');
+            }
+        });
+    });
+    
 });

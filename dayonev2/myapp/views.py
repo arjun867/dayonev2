@@ -17,7 +17,22 @@ from django.db.models import Count
 
 from django.shortcuts import get_object_or_404
 # from django.db.models.functions import TruncYear
+from django.db import IntegrityError
+from django.utils.crypto import get_random_string
 
+
+# def register_view(request):
+#     if request.method == 'POST':
+#         username = request.POST['username']
+#         email = request.POST['email']
+#         password = request.POST['password']
+#         nationality = request.POST['nationality']
+
+#         user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
+#         login(request, user)
+#         return redirect('home')
+
+#     return render(request, 'register.html')
 
 def register_view(request):
     if request.method == 'POST':
@@ -25,12 +40,22 @@ def register_view(request):
         email = request.POST['email']
         password = request.POST['password']
         nationality = request.POST['nationality']
+        social_media_url = request.POST.get('social_media_url', email)
 
-        user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
+        while True:
+            try:
+                user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
+                break
+            except IntegrityError:
+                # Append a random string to the username to make it unique
+                new_username = f"{username}_{get_random_string(length=5)}"
+                continue
+
         login(request, user)
         return redirect('home')
 
     return render(request, 'register.html')
+
 
 def login_view(request):
     if request.method == 'POST':
@@ -70,9 +95,32 @@ def convert_pomodoros_to_currency(request):
         user = request.user
         # No need to calculate virtual_currency, use the virtual_currency_balance property
         virtual_currency = user.virtual_currency_balance
+        print("balance in views",virtual_currency)
         # No need to update user.virtual_currency, as it's calculated dynamically
         return JsonResponse({'success': True, 'virtual_currency': virtual_currency})
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
+
+
+# @login_required
+# def convert_pomodoros_to_currency(request):
+#     if request.method == 'POST':
+#         user = request.user
+#         # Calculate total earned virtual currency from completed Pomodoros
+#         total_earned = user.total_pomodoros * 25
+
+#         # Calculate total spent on products purchased before reaching current balance
+#         purchased_products = Product.objects.filter(
+#             purchased_by=user,
+#             # cost_in_pomodoros__lt=total_earned // 25  # Filter based on total earned virtual currency spent
+#         )
+#         total_spent = sum(product.cost_in_pomodoros for product in purchased_products)
+
+#         # Calculate virtual currency balance after deducting total spent
+#         virtual_currency_balance = total_earned - (total_spent if total_spent else 0)
+
+#         return JsonResponse({'success': True, 'virtual_currency': virtual_currency_balance})
+#     return JsonResponse({'success': False, 'error': 'Invalid request method'})
+
 
 @login_required
 def purchase_product(request, product_id):
@@ -85,6 +133,8 @@ def purchase_product(request, product_id):
                 user.save()
                 product.purchased_by.add(user)  # Add the user to the list of purchasers
                 product.save()
+                print("product cost in views",product.cost_in_pomodoros)
+                print("virtual balance in views",user.virtual_currency_balance)
                 return JsonResponse({'success': True, 'virtual_currency_balance': user.virtual_currency_balance})
             else:
                 return JsonResponse({'success': False, 'error': 'Product already purchased'})
@@ -225,8 +275,16 @@ def create_task(request):
         tasks = Task.objects.filter(user=request.user, completed=False).order_by('-scheduled_datetime')
         completed_tasks = Task.objects.filter(user=request.user, completed=True).order_by('-created_time')[:15]
 
+        # Retrieve all products from the database
+        products = Product.objects.all()
+
+        # Create a dictionary to store products grouped by category
+        category_products = {}
+        for category, _ in Product.CATEGORY_CHOICES:
+            category_products[category] = products.filter(category=category)
+
         # Pass the tasks and completed_tasks to the template context
-        return render(request, 'home.html', {'tasks': tasks, 'completed_tasks': completed_tasks})
+        return render(request, 'home.html', {'tasks': tasks, 'completed_tasks': completed_tasks, 'category_products': category_products})
     else:
         # Handle GET request or other methods
         return render(request, 'home.html')

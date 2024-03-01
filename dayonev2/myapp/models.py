@@ -14,7 +14,15 @@ class CustomUser(AbstractUser):
         ('non-indian', 'Non-Indian'),
     ]
 
+    SOCIAL_MEDIA_CHOICES = [
+            ('facebook', 'Facebook'),
+            ('twitter', 'Twitter'),
+            ('instagram', 'Instagram'),
+            ('linkedin', 'LinkedIn'),
+            ('email', 'Email'),
+        ]
 
+    social_media_url = models.URLField(blank=True, null=True)
 
     nationality = models.CharField(max_length=20, choices=NATIONALITY_CHOICES)
     total_pomodoros = models.IntegerField(default=0)
@@ -104,14 +112,35 @@ class Product(models.Model):
         return self.name
 
 
+# @receiver(post_save, sender=Pomodoro)
+# def update_user_pomodoro_count(sender, instance, created, **kwargs):
+#     if created:
+#         user = instance.user
+#         user.total_pomodoros = Pomodoro.objects.filter(user=user).count()
+#         total_cost = Product.objects.filter(purchased_by=user).aggregate(total_cost=Sum('cost_in_pomodoros'))['total_cost']
+#         user.virtual_currency_balance = user.total_pomodoros * 25 - (total_cost if total_cost else 0)
+
+
 @receiver(post_save, sender=Pomodoro)
 def update_user_pomodoro_count(sender, instance, created, **kwargs):
     if created:
         user = instance.user
         user.total_pomodoros = Pomodoro.objects.filter(user=user).count()
-        total_cost = Product.objects.filter(purchased_by=user).aggregate(total_cost=Sum('cost_in_pomodoros'))['total_cost']
-        user.virtual_currency_balance = user.total_pomodoros * 25 - (total_cost if total_cost else 0)
+
+        # Calculate total earned virtual currency from completed Pomodoros
+        total_earned = user.total_pomodoros * 25
+
+        # Calculate total spent on products purchased before reaching current balance
+        purchased_products = Product.objects.filter(
+            purchased_by=user,
+        )
+        total_spent = 25*sum(product.cost_in_virtual_currency for product in purchased_products)
+        print("total earned in models file", total_earned)
+        print("total spent in models file", total_spent)
+        
+        user.virtual_currency_balance = total_earned - total_spent
         user.save()
+
 
 
 @receiver(post_delete, sender=Pomodoro)
