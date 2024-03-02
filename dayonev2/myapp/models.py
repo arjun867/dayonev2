@@ -21,7 +21,47 @@ class CustomUser(AbstractUser):
             ('linkedin', 'LinkedIn'),
             ('email', 'Email'),
         ]
+    
+    GENDER_CHOICES = [
+        ('male', 'Male'),
+        ('female', 'Female'),
+        ('other', 'Other'),
+    ]
 
+    FUTURE_GOAL_CHOICES = [
+        ('doctor', 'Doctor'),
+        ('ca_cs', 'CA/CS'),
+        ('lawyer', 'Lawyer'),
+        ('teacher', 'Teacher'),
+        ('architect', 'Architect'),
+        ('mba', 'MBA'),
+        ('civil_servant', 'Civil Servant'),
+        ('fashion_designer', 'Fashion Designer'),
+        ('software_engineer', 'Software Engineer'),
+        ('graphic_designer', 'Graphic Designer'),
+        ('marketing_professional', 'Marketing Professional'),
+        ('content_writer', 'Content Writer'),
+        ('jee', 'JEE'),
+        ('neet', 'NEET'),
+        ('cuet', 'CUET'),
+        ('gate', 'GATE'),
+        ('cat', 'CAT'),
+        ('nid_dat', 'NID DAT'),
+        ('ugc_net', 'UGC NET'),
+        ('upsc', 'UPSC'),
+        ('ssc', 'SSC'),
+        ('nda', 'NDA'),
+        ('clat', 'CLAT'),
+        ('ailet', 'AILET'),
+        ('other', 'Other'),
+    ]
+
+    gender = models.CharField(max_length=10, choices=GENDER_CHOICES, blank=True, null=True)
+    age = models.IntegerField(blank=True, null=True)
+    college_or_workplace = models.CharField(max_length=255, blank=True, null=True)
+    future_goal = models.CharField(max_length=50, choices=FUTURE_GOAL_CHOICES, blank=True, null=True)
+    other_goal_text = models.CharField(max_length=255, blank=True, null=True)
+    
     social_media_url = models.URLField(blank=True, null=True)
 
     nationality = models.CharField(max_length=20, choices=NATIONALITY_CHOICES)

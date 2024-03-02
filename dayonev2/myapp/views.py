@@ -34,6 +34,29 @@ from django.utils.crypto import get_random_string
 
 #     return render(request, 'register.html')
 
+# def register_view(request):
+#     if request.method == 'POST':
+#         username = request.POST['username']
+#         email = request.POST['email']
+#         password = request.POST['password']
+#         nationality = request.POST['nationality']
+#         social_media_url = request.POST.get('social_media_url', email)
+
+#         while True:
+#             try:
+#                 user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
+#                 break
+#             except IntegrityError:
+#                 # Append a random string to the username to make it unique
+#                 new_username = f"{username}_{get_random_string(length=5)}"
+#                 continue
+
+#         login(request, user)
+#         return redirect('home')
+
+#     return render(request, 'register.html')
+
+
 def register_view(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -41,10 +64,26 @@ def register_view(request):
         password = request.POST['password']
         nationality = request.POST['nationality']
         social_media_url = request.POST.get('social_media_url', email)
+        gender = request.POST['gender']
+        age = request.POST['age']
+        college_or_workplace = request.POST['college_or_workplace']
+        future_goal = request.POST['future_goal']
+        other_goal_text = request.POST.get('other_goal_text', '')
 
         while True:
             try:
-                user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
+                user = CustomUser.objects.create_user(
+                    username=username,
+                    email=email,
+                    password=password,
+                    nationality=nationality,
+                    social_media_url=social_media_url,
+                    gender=gender,
+                    age=age,
+                    college_or_workplace=college_or_workplace,
+                    future_goal=future_goal,
+                    other_goal_text=other_goal_text
+                )
                 break
             except IntegrityError:
                 # Append a random string to the username to make it unique
@@ -100,6 +139,14 @@ def convert_pomodoros_to_currency(request):
         return JsonResponse({'success': True, 'virtual_currency': virtual_currency})
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
+# @login_required
+# def convert_pomodoros_to_currency(request):
+#     if request.method == 'POST':
+#         user = request.user
+#         virtual_currency = getattr(user, 'virtual_currency_balance', 0)
+#         print("balance in views", virtual_currency)
+#         return JsonResponse({'success': True, 'virtual_currency': virtual_currency})
+#     return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
 # @login_required
 # def convert_pomodoros_to_currency(request):

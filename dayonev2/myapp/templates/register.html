@@ -49,6 +49,61 @@
                         <td><input type="text" name="social_media_url" id="social_media_url_input"></td>
                     </tr>
 
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <select name="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="number" name="age" required></td>
+                    </tr>
+                    <tr>
+                        <td>College/Workplace:</td>
+                        <td><input type="text" name="college_or_workplace" required></td>
+                    </tr>
+                    <tr>
+                        <td>Future Goal:</td>
+                        <td>
+                            <select name="future_goal" id="id_future_goal" required>
+                                <option value="doctor">Doctor</option>
+                                <option value="ca_cs">CA/CS</option>
+                                <option value="lawyer">Lawyer</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="architect">Architect</option>
+                                <option value="mba">MBA</option>
+                                <option value="civil_servant">Civil Servant</option>
+                                <option value="fashion_designer">Fashion Designer</option>
+                                <option value="software_engineer">Software Engineer</option>
+                                <option value="graphic_designer">Graphic Designer</option>
+                                <option value="marketing_professional">Marketing Professional</option>
+                                <option value="content_writer">Content Writer</option>
+                                <option value="jee">JEE</option>
+                                <option value="neet">NEET</option>
+                                <option value="cuet">CUET</option>
+                                <option value="gate">GATE</option>
+                                <option value="cat">CAT</option>
+                                <option value="nid_dat">NID DAT</option>
+                                <option value="ugc_net">UGC NET</option>
+                                <option value="upsc">UPSC</option>
+                                <option value="ssc">SSC</option>
+                                <option value="nda">NDA</option>
+                                <option value="clat">CLAT</option>
+                                <option value="ailet">AILET</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="other_goal_row" style="display: none;">
+                        <td>Other Goal:</td>
+                        <td><input type="text" name="other_goal_text"></td>
+                    </tr>                    
+
                 </table>
                 
                 <button type="submit" class="btn btn-primary">Register</button>

@@ -479,17 +479,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // document.querySelector('select[name="social_media_url"]').addEventListener('click', function() {
-    //     var socialMediaInputRow = document.getElementById('social_media_url_row');
-    //     if (this.value === '') {
-    //         socialMediaInputRow.style.display = 'none';
-    //     } else {
-    //         socialMediaInputRow.style.display = 'table-row';
-    //         document.getElementById('social_media_url_input').setAttribute('type', 'text');
-    //         document.getElementById('social_media_url_input').setAttribute('placeholder', 'Enter Social Media URL or Email');
-    //     }
-    // });
-    document.addEventListener('DOMContentLoaded', function() {
+
+    console.log("get the socila media url")
+
         document.getElementById('social_media_select').addEventListener('change', function() {
             var socialMediaInputRow = document.getElementById('social_media_url_row');
             if (this.value === '') {
@@ -500,6 +492,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('social_media_url_input').setAttribute('placeholder', 'Enter Social Media URL or Email');
             }
         });
-    });
+
+        var futureGoalSelect = document.getElementById('id_future_goal');
+        var otherGoalRow = document.getElementById('other_goal_row');
     
+        futureGoalSelect.addEventListener('change', function() {
+            if (this.value === 'other') {
+                otherGoalRow.style.display = 'table-row';
+            } else {
+                otherGoalRow.style.display = 'none';
+            }
+        });
+
+
 });
