@@ -9,26 +9,51 @@
             <title>Ranking</title>
             <h5>Your Rank: {{ current_user_rank }}</h5>
             <form method="get">
-                <label for="gender" class="filters">Filter by Gender:</label>
-                <select class="filters" id="gender" name="gender" >
-                    <option value="">All</option>
-                    <option value="M">Male</option>
-                    <option value="F">Female</option>
-                </select>
                 
                 <label for="goal" class="filters">Filter by Goal:</label>
                 <select class="filters" id="goal" name="goal">
                     <option value="">All</option>
-                    <option value="study">Study</option>
-                    <option value="career">Career</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="ca_cs">CA/CS</option>
+                    <option value="lawyer">Lawyer</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="architect">Architect</option>
+                    <option value="mba">MBA</option>
+                    <option value="civil_servant">Civil Servant</option>
+                    <option value="fashion_designer">Fashion Designer</option>
+                    <option value="software_engineer">Software Engineer</option>
+                    <option value="graphic_designer">Graphic Designer</option>
+                    <option value="marketing_professional">Marketing Professional</option>
+                    <option value="content_writer">Content Writer</option>
+                    <option value="jee">JEE</option>
+                    <option value="neet">NEET</option>
+                    <option value="cuet">CUET</option>
+                    <option value="gate">GATE</option>
+                    <option value="cat">CAT</option>
+                    <option value="nid_dat">NID DAT</option>
+                    <option value="ugc_net">UGC NET</option>
+                    <option value="upsc">UPSC</option>
+                    <option value="ssc">SSC</option>
+                    <option value="nda">NDA</option>
+                    <option value="clat">CLAT</option>
+                    <option value="ailet">AILET</option>
                     <option value="other">Other</option>
                 </select>
+
+                <label for="gender" class="filters">Filter by Gender:</label>
+                <select class="filters" id="gender" name="gender" >
+                    <option value="">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
         
-                <label class="filters" for="rank_min">Rank Min:</label>
+                <!-- <label class="filters" for="rank_min">Rank Min:</label>
                 <input class="filters" type="number" id="rank_min" name="rank_min">
         
                 <label class="filters" for="rank_max">Rank Max:</label>
-                <input class="filters" type="number" id="rank_max" name="rank_max">
+                <input class="filters" type="number" id="rank_max" name="rank_max"> -->
                 
                 <button type="submit" class="btn btn-primary custom-filterbtn">Apply Filters</button>
             </form>

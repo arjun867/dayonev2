@@ -46,15 +46,20 @@ from django.utils.crypto import get_random_string
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def ranking_view(request):
+
+    print(request.GET)  # Print request parameters
+
     gender_filter = request.GET.get('gender', '')
     goal_filter = request.GET.get('goal', '')
-    rank_min = request.GET.get('rank_min', None)
-    rank_max = request.GET.get('rank_max', None)
+    # rank_min = request.GET.get('rank_min', None)
+    # rank_max = request.GET.get('rank_max', None)
 
     users = CustomUser.objects.order_by('-total_pomodoros')
 
     # if rank_min and rank_max:
-    #    users = users.filter(rank__gte=rank_min, rank__lte=rank_max)
+    #     rank_min = int(rank_min)  # Convert string to integer
+    #     rank_max = int(rank_max)  # Convert string to integer
+    #     users = users.filter(rank__gte=rank_min, rank__lte=rank_max)
 
     for user in users:
         user.net_worth = user.total_pomodoros * 25
@@ -82,6 +87,9 @@ def ranking_view(request):
         'current_user_rank': current_user_rank,
         'current_user': request.user,
     }
+
+    print(users)
+
     return render(request, 'ranking.html', context)
 
 def register_view(request):
