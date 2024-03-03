@@ -14,6 +14,11 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
+import environ
+
+env=environ.Env()
+environ.Env.read_env()
+
 import datetime
 
 load_dotenv
@@ -25,7 +30,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$)fs+j1mb$f6&+hxj^mlv51t@k-^&(nvcwy-sb$0b6fh6vs#ev'
+# SECRET_KEY = 'django-insecure-$)fs+j1mb$f6&+hxj^mlv51t@k-^&(nvcwy-sb$0b6fh6vs#ev'
+
+SECRET_KEY=os.getenv('SECRET_KEY')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -87,14 +95,14 @@ WSGI_APPLICATION = 'dayonev2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
-
+# aws try one
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
@@ -105,6 +113,13 @@ DATABASES = {
 #         'PORT': '5432',
 #     }
 # }
+
+# render database
+import dj_database_url
+DATABASES={
+   'default':dj_database_url.parse(env('DATABASE_URL')) 
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
