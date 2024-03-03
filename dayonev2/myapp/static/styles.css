@@ -73,3 +73,33 @@ footer p {
     color: rgb(59, 59, 59);
   }
   
+  /* CSS for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* CSS for the filters */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+/* CSS for pagination */
+.pagination {
+  margin-top: 20px;
+}
+
+.custom-filterbtn{
+  margin: 1%;
+}

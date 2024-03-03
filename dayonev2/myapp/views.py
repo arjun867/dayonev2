@@ -27,19 +27,6 @@ from django.utils.crypto import get_random_string
 #         email = request.POST['email']
 #         password = request.POST['password']
 #         nationality = request.POST['nationality']
-
-#         user = CustomUser.objects.create_user(username=username, email=email, password=password, nationality=nationality)
-#         login(request, user)
-#         return redirect('home')
-
-#     return render(request, 'register.html')
-
-# def register_view(request):
-#     if request.method == 'POST':
-#         username = request.POST['username']
-#         email = request.POST['email']
-#         password = request.POST['password']
-#         nationality = request.POST['nationality']
 #         social_media_url = request.POST.get('social_media_url', email)
 
 #         while True:
@@ -56,6 +43,46 @@ from django.utils.crypto import get_random_string
 
 #     return render(request, 'register.html')
 
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+def ranking_view(request):
+    gender_filter = request.GET.get('gender', '')
+    goal_filter = request.GET.get('goal', '')
+    rank_min = request.GET.get('rank_min', None)
+    rank_max = request.GET.get('rank_max', None)
+
+    users = CustomUser.objects.order_by('-total_pomodoros')
+
+    # if rank_min and rank_max:
+    #    users = users.filter(rank__gte=rank_min, rank__lte=rank_max)
+
+    for user in users:
+        user.net_worth = user.total_pomodoros * 25
+    
+    if gender_filter:
+        users = users.filter(gender=gender_filter)
+
+    if goal_filter:
+        users = users.filter(future_goal=goal_filter)
+
+    paginator = Paginator(users, 50)  # Show 50 users per page
+
+    page_number = request.GET.get('page')
+    try:
+        users_page = paginator.page(page_number)
+    except PageNotAnInteger:
+        users_page = paginator.page(1)
+    except EmptyPage:
+        users_page = paginator.page(paginator.num_pages)
+
+    current_user_rank = users.filter(total_pomodoros__gt=request.user.total_pomodoros).count() + 1
+
+    context = {
+        'users': users_page,
+        'current_user_rank': current_user_rank,
+        'current_user': request.user,
+    }
+    return render(request, 'ranking.html', context)
 
 def register_view(request):
     if request.method == 'POST':

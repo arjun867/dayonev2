@@ -56,12 +56,13 @@ class CustomUser(AbstractUser):
         ('other', 'Other'),
     ]
 
+    rank=models.IntegerField(default=0)
     gender = models.CharField(max_length=10, choices=GENDER_CHOICES, blank=True, null=True)
     age = models.IntegerField(blank=True, null=True)
     college_or_workplace = models.CharField(max_length=255, blank=True, null=True)
     future_goal = models.CharField(max_length=50, choices=FUTURE_GOAL_CHOICES, blank=True, null=True)
     other_goal_text = models.CharField(max_length=255, blank=True, null=True)
-    
+
     social_media_url = models.URLField(blank=True, null=True)
 
     nationality = models.CharField(max_length=20, choices=NATIONALITY_CHOICES)
