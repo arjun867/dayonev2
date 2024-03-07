@@ -30,7 +30,8 @@ SECRET_KEY = 'django-insecure-$)fs+j1mb$f6&+hxj^mlv51t@k-^&(nvcwy-sb$0b6fh6vs#ev
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','13.60.22.219']
+# ALLOWED_HOSTS = ['*','13.60.22.219']
+ALLOWED_HOSTS = ['*','54.80.152.24','dayoneapp.co']
 
 
 # Application definition
@@ -185,9 +186,9 @@ AUTHENTICATION_BACKENDS = [
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = 'arjun-arjun'
+AWS_STORAGE_BUCKET_NAME = 'dayonebucket'
 AWS_S3_SIGNATURE_NAME = 's3v4',
-AWS_S3_REGION_NAME = 'eu-north-1'
+AWS_S3_REGION_NAME = 'us-east-1'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL =  None
 AWS_S3_VERITY = True
