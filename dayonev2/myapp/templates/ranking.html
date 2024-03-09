@@ -1,6 +1,7 @@
 
-
 {% extends 'home.html' %}
+
+{% load custom_filters %}
 {% block title %} ranking {% endblock %}
 {% block body %}
 <div class="container">
@@ -93,7 +94,7 @@
                         
                         <td>{{ user.gender }}</td>
                         <td>{{ user.college_or_workplace }}</td>
-                        <td>{{ user.net_worth }}</td>
+                        <td>{{ user.total_pomodoros|multiply_by_25}}</td>
                         <td>
                             {% if user.future_goal == 'other' %}
                                 {{ user.other_goal_text }}

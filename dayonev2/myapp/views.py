@@ -45,6 +45,7 @@ from django.utils.crypto import get_random_string
 
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
+@login_required
 def ranking_view(request):
 
     print(request.GET)  # Print request parameters
