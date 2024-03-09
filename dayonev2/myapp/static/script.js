@@ -343,6 +343,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             function onTimerEnd() {
+
+                // Function to play the audio
+                function playAudio() {
+                    var audio = document.getElementById('audio');
+                    audio.play();
+                }
+
+                playAudio();
+                
                 clearInterval(intervalid);
                 activeTimerId = null; // Set activeTimerId to null when the timer ends
 

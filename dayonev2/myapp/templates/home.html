@@ -112,6 +112,7 @@
                                                 <button class="btn btn-success custom-start-timer" data-task-id="{{ task.id }}" >Start</button>
                                                 <button class="btn btn-danger custom-pause-timer" data-task-id="{{ task.id }}" >Pause</button>
                                                 <button class="btn btn-warning custom-skip-timer" data-task-id="{{ task.id }}">Skip</button>
+                                                <audio id="audio" src="{% static 'mixkit-ethereal-fairy-win-sound-2019.wav' %}" preload="auto"></audio>
                                             </div>
                                         </div>
                                     </div>
@@ -198,11 +199,11 @@
                 <canvas id="weeklyChart" width="400" height="150"></canvas>
                 <h5>Monthly Pomodoros:</h5>
                 <canvas id="monthlyChart" width="400" height="200"></canvas>
-                <h5>Total Pomodoros:<span id="totalPomodoroCount"></span></h5>
-                <p id="totalPomodoroCount"></p>
                 <h5>Yearly Pomodoros:</h5>
                 <ul id="yearlyCounts"></ul>
-
+                <h5>Total Pomodoros:<span id="totalPomodoroCount"></span></h5>
+                <p id="totalPomodoroCount"></p>
+        
             </div>
 
             <div class="col-xs-12 col-lg-4">
