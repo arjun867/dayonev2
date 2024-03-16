@@ -1,0 +1,2000 @@
+Watching for file changes with StatReloader
+[13/Mar/2024 14:02:25] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 14:02:25] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 14:02:26] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 14:02:27] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:27] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:27] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:27] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:28] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:28] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:29] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:39] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 14:02:39] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 14:02:40] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 14:02:40] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:40] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:40] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:40] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:40] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:40] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:41] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:53] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 14:02:54] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 14:02:54] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 14:02:55] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:55] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:55] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:55] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:55] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:55] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:02:56] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:02] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 14:03:03] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 14:03:03] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 14:03:04] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:04] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:04] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:04] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:04] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:04] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:03:05] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:27:28] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 14:27:29] "GET /static/styles.css HTTP/1.1" 200 2256
+[13/Mar/2024 14:27:29] "GET /static/script.js HTTP/1.1" 200 20433
+[13/Mar/2024 14:27:31] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 14:27:31] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:27:31] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:27:31] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:27:32] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 14:27:32] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[13/Mar/2024 14:27:32] "GET /favicon.ico HTTP/1.1" 404 7002
+[13/Mar/2024 14:27:32] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:27:32] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:27:33] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 14:27:33] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:10] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 15:02:10] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:02:11] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:02:12] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:02:12] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:12] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:13] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:13] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:13] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:02:13] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:19] "GET /accounts/login/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:20] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:04:20] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:04:22] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:22] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:22] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:22] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:22] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:22] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:23] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:04:47] code 400, message Bad request version ('À')
+[13/Mar/2024 15:04:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:56] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[13/Mar/2024 15:04:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:56] code 400, message Bad request version ('\x92U¿')
+[13/Mar/2024 15:04:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:56] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:04:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:57] code 400, message Bad request version ("¤\x19¿&¡\x14`È©C\x12¬gëeÔ9Ò.Sf\x8d\x01_òS×6\x98jf'\x00")
+[13/Mar/2024 15:04:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:57] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:04:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:57] code 400, message Bad request version ('Y')
+[13/Mar/2024 15:04:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:04:59] code 400, message Bad request version ('Ð\x18\x15xö;/\x00')
+[13/Mar/2024 15:04:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:00] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:05:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:00] code 400, message Bad request version ('o]ß\x84"¿¹l\x02QË3Ôûpêæ\x13\x10\x17ÍY\x19´\x93\x1bN¹\x9eØô\\\x06ë`[')
+[13/Mar/2024 15:05:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:00] code 400, message Bad request syntax ('\x16\x03\x01\x02/\x01\x00\x02+\x03\x03\x9fq:³\x96¿øF\x8c¨ºò¥')
+[13/Mar/2024 15:05:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:03] code 400, message Bad request version ('dayoneapp.co\x00-\x00\x02\x01\x01\x00')
+[13/Mar/2024 15:05:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:03] code 400, message Bad request version ('\x9döÞ')
+[13/Mar/2024 15:05:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:03] code 400, message Bad request version ("\x14j\xad)\x83\x08ÿPlU\x8b\x92O2;\x8fªÀX$H/Ó\x83\x0f;ej^&%5\x93Ro:Ë(lø'©Bå!×\x0e\x1b²8\x81rVé\x86u\x96\x8cújY\x06\x08àL<\x00")
+[13/Mar/2024 15:05:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:04] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:05:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:04] code 400, message Bad request version ('dayoneapp.coDi\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:05:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:04] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 15:05:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:06] "GET /accounts/login/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:06] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:05:07] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:05:08] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:08] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:08] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:08] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:08] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:08] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:09] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:09] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:09] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:09] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:09] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:10] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:12] "POST /accounts/login/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:14] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 15:05:15] code 400, message Bad request version ('p\x1b©\xad\x05\x92¿\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00')
+[13/Mar/2024 15:05:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:15] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:05:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:15] code 400, message Bad request version ("(\x0fÃú\x9fÊ/g9\x9afº¦«\x04'\x83\x88æ\x04_$\x04")
+[13/Mar/2024 15:05:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:15] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:15] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:05:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:05:18] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:05:18] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:05:18] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:05:18] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 15:05:18] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:05:19] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 15:05:19] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:05:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:05:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:24] code 400, message Bad request version ('HßSK¼i/´Vù·{\x99/\xad±rùùÅáñø\x8aoä\x8bè+\x13RëòªòXLC|pO`ì\x8el¨\x08å)ÅÊ:yÇü[Ò\x0eI)\x15½\x964ó!¸h\x90\x00')
+[13/Mar/2024 15:05:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:25] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:05:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:25] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢ºº\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06::\x03\x04\x03\x03Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:05:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:31] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[13/Mar/2024 15:05:31] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 15:05:31] "GET /static/styles.css HTTP/1.1" 200 2256
+[13/Mar/2024 15:05:33] code 400, message Bad request version ('Q¡z&')
+[13/Mar/2024 15:05:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:33] code 400, message Bad request version ('àNë(ý\x883E\x91Ø')
+[13/Mar/2024 15:05:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:34] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01â\x8a\x8a\x00\x00\x00')
+[13/Mar/2024 15:05:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:34] code 400, message Bad request syntax ('\x16\x03\x01\x02/\x01\x00\x02+\x03\x03\x9bÇ{K¬@\x12')
+[13/Mar/2024 15:05:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:34] "GET /static/script.js HTTP/1.1" 200 20433
+[13/Mar/2024 15:05:35] code 400, message Bad request version ('ÆÛí\x81ü\x7f\xad\xad\x01ÿà`\x02ôÂìæ¸¢){\x90zJ$g:ÀB¯Ã\x86¥¥\x0e\x13Z\x9cPçûCg\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+[13/Mar/2024 15:05:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:35] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01â**\x00\x00\x00')
+[13/Mar/2024 15:05:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:35] code 400, message Bad request version ('e')
+[13/Mar/2024 15:05:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:35] code 400, message Bad request syntax ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03fé9éÖ\x96Má¥²z<\x98')
+[13/Mar/2024 15:05:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:35] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â\x1a\x1a\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:05:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:36] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00#\x00\x00\x00')
+[13/Mar/2024 15:05:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:36] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:36] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:36] code 400, message Bad request version ('¸\x88ñÉ\x81C´ò7\x93rqåïÈp,o¦ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+[13/Mar/2024 15:05:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:36] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:36] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:36] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:36] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:36] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:05:37] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:37] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:37] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:37] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:37] code 400, message Bad request version ('èo2Rµa\x00\x90m\x80*e¿¤¿\x8c\x07~Ú¡¦m/»6\x9d\x82\x11î\x88\x8e\x02C\x18')
+[13/Mar/2024 15:05:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:37] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:37] code 400, message Bad request version ('%\x8bc')
+[13/Mar/2024 15:05:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:37] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:05:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:37] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:38] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:38] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:05:38] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:05:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:38] code 400, message Bad request version ('\x02h2\x08http/1.1\x00#\x00\x00\x00')
+[13/Mar/2024 15:05:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x0f\x01\x00\x02')
+[13/Mar/2024 15:05:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:38] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:05:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:38] code 400, message Bad request version ('\x0e[á/t³;½ÚÍ\x7f\x89]BêHÆ\x8fÅØl\x06öö\x19Y¼u@\x9eÑÌÆ]\x9f')
+[13/Mar/2024 15:05:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:39] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ÂZZ\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:05:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:39] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:05:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:40] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢**\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:05:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:40] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â**\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:05:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:43] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[13/Mar/2024 15:05:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:43] code 400, message Bad request version ('¶¿\x9aWÜ\x0e¢¢_-3uZ«¨¯j$\x02¬\x82F20Ï\x8d\x81õ¿ä¼¾ä+_tÃby3²\x1aD\x9a®\x15\x13Ö\x96þ#à8\x81ú¬8vK\x87\x94Ñ\x8a\x08ûßèUb\x16of\x08Ò²\x04EJ\x1a³}òP½¤\x81²!äÅö')
+[13/Mar/2024 15:05:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:43] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00+\x00\x07\x06')
+[13/Mar/2024 15:05:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:43] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03&ÂÀì)Ð³Î\x98\x01§·(ü\x97çO}d')
+[13/Mar/2024 15:05:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:45] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01â')
+[13/Mar/2024 15:05:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:45] code 400, message Bad request version ('\x81dz\x00')
+[13/Mar/2024 15:05:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:46] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:05:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:46] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âúú\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:05:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:47] code 400, message Bad request version ('\x00\x02\x01\x00Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:05:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x0f\x01\x00\x02')
+[13/Mar/2024 15:05:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:48] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00')
+[13/Mar/2024 15:05:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:48] code 400, message Bad request version ('#´aøMy±a¯7F\x9dnYOüüj/³¾V\x84Ý8\x88¾¤à5\x8f\x14\x00\x12\x00\x00\x00#\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:05:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:52] code 400, message Bad request version ('RßÇláFÅqMøþætR\x16ý\x16\x86÷n¾¡ÌôâTo-9¿²\x00')
+[13/Mar/2024 15:05:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:52] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:05:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:52] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:05:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:52] code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x003\x00+\x00)')
+[13/Mar/2024 15:05:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:55] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:55] code 400, message Bad request version ('Ñ\x02')
+[13/Mar/2024 15:05:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:56] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x00')
+[13/Mar/2024 15:05:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:05:56] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:05:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:07:43] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 15:07:44] "GET /static/styles.css HTTP/1.1" 200 2256
+[13/Mar/2024 15:07:44] "GET /static/script.js HTTP/1.1" 200 20433
+[13/Mar/2024 15:07:45] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:07:45] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:07:45] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:07:45] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:07:45] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:07:45] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[13/Mar/2024 15:07:45] "GET /favicon.ico HTTP/1.1" 404 7002
+[13/Mar/2024 15:07:45] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:07:45] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:07:46] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:07:46] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:07:46] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:07:46] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:19] "GET /accounts/login/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:20] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:08:20] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:08:20] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:20] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:20] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:20] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:20] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:20] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:21] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:08:23] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:08:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:23] code 400, message Bad request version ('0\x16ÑÝÈ]')
+[13/Mar/2024 15:08:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:23] code 400, message Bad request version ('dayoneapp.co\x00+\x00\x07\x06')
+[13/Mar/2024 15:08:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:23] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:08:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:25] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:08:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:25] code 400, message Bad request version ('\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:08:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:26] "POST /accounts/login/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:26] code 400, message Bad request version ('C\x14r»û"Ä\x122\x82\x8b4\x9a¶ØY')
+[13/Mar/2024 15:08:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:26] code 400, message Bad request version ('¹u\x9bð(Cd\x06\x98]¯9c¶*©â$;Ýì\x00')
+[13/Mar/2024 15:08:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:27] "POST /accounts/login/ HTTP/1.1" 302 0
+[13/Mar/2024 15:08:27] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 15:08:28] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:08:28] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:08:28] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:29] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[13/Mar/2024 15:08:29] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:08:29] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:08:29] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 15:08:29] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:08:29] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 15:08:29] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:08:29] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:30] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:31] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:32] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:32] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:33] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:08:59] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â\x1a\x1a\x00\x00\x00')
+[13/Mar/2024 15:08:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:08:59] code 400, message Bad request version ('Ö(')
+[13/Mar/2024 15:08:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:00] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢')
+[13/Mar/2024 15:09:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:00] code 400, message Bad request version ('Îô>µ\x90Å\x94+ÜV&<5\\C\\ë7uþ3')
+[13/Mar/2024 15:09:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:00] code 400, message Bad request version ('Kò¡')
+[13/Mar/2024 15:09:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:01] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03<\x9f\x1aþãÀ\x86D\xad\x14{¢ãå!ÜÍÀ')
+[13/Mar/2024 15:09:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:02] "GET /accounts/login/ HTTP/1.1" 200 5069
+[13/Mar/2024 15:09:02] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:09:04] code 400, message Bad request version ('cÿÕG\x92\x9d[\x00')
+[13/Mar/2024 15:09:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:04] code 400, message Bad request version ('Ï¨òÓÿo½»üd¾³FQ¢¢5MtKS|þGÿSuô¤"!\x00\x90\x80¼\x16«\x96Ð©½Û:ê#ù×\x83U¾¼³#*¨\x7fè')
+[13/Mar/2024 15:09:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:05] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01âJJ\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:09:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:09:05] code 400, message Bad request version ('R°Ä\x17¹YeìO\x8c÷Ñ`À»§ïí£Èö½B\x91\x95UQe\x00')
+[13/Mar/2024 15:09:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:10:54] code 400, message Bad request version ('À')
+[13/Mar/2024 15:10:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:03] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:11:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:03] code 400, message Bad request version ('\x91\x8airçÑÜ/Î.¾ì¡\x92ò')
+[13/Mar/2024 15:11:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:03] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:11:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:03] code 400, message Bad request version ('\x12s')
+[13/Mar/2024 15:11:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:07] code 400, message Bad request version ('§À[Þóh±KÕkÂ')
+[13/Mar/2024 15:11:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:07] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢êê\x00\x00\x00')
+[13/Mar/2024 15:11:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02/\x01\x00\x02+\x03\x03')
+[13/Mar/2024 15:11:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:08] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00')
+[13/Mar/2024 15:11:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:08] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01âJJ\x00\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00')
+[13/Mar/2024 15:11:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:08] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:11:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('dayoneapp.co\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('\x91d\x84¨è&¦')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('Z4÷')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:09] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:10] code 400, message Bad request version ('U-B@úx_aÍ\\û£*\x8eSZ¼\x8bX@XÃSÍ\x1b\x02ò¾3[\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00\x17\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00')
+[13/Mar/2024 15:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:10] code 400, message Bad request version ('2\x86H^å')
+[13/Mar/2024 15:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:10] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00')
+[13/Mar/2024 15:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:10] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âzz\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 15:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:10] code 400, message Bad request version ('dA\x9a\x01Ëosµ\x7f3\x83ã[@¦m\x00')
+[13/Mar/2024 15:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:11] code 400, message Bad request version ('dayoneapp.co\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:11:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:11] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:11:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:11] code 400, message Bad request version ('dayoneapp.co\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00#\x00\x00\x00\x12\x00\x00\x00')
+[13/Mar/2024 15:11:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:11:14] "GET / HTTP/1.1" 200 33544
+[13/Mar/2024 15:11:16] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:11:16] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:11:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:11:18] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:11:18] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:11:18] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 15:11:18] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 15:11:18] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:13:02] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:02] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:03] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x98DTF\x04Ù+')
+[13/Mar/2024 15:13:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:03] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x91Ss\x1d')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8f`X¦cÙ/Ä©y)\x81\x0fN©²ÿ\x81')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:13:40] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:13:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:08] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00')
+[13/Mar/2024 15:14:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02/\x01\x00\x02+\x03\x03î\x9dÞ\x9f®Ýð|\x8cË5ÈÊ\x83k')
+[13/Mar/2024 15:14:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:08] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:14:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:08] code 400, message Bad request version ('ý\x01=à8\x11Î\x0e\x1a;DOjØ\x98i§jéü\x9fCÆ{\x94L¹å\x99\x12\x00')
+[13/Mar/2024 15:14:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:18] code 400, message Bad request version ('ó\x0e\x92¬')
+[13/Mar/2024 15:14:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:18] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[13/Mar/2024 15:14:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:23] code 400, message Bad request version ('×-6Loá\x19ä¯68\x93@×êHô6Ò\xad¸±¨Åô\x8b\x92\x0fw\x92´Y\x96É¦^\\\\92XÚ')
+[13/Mar/2024 15:14:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:23] code 400, message Bad request version ('kãå\x96Yè^\x00')
+[13/Mar/2024 15:14:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:31] code 400, message Bad request version ('D')
+[13/Mar/2024 15:14:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:31] code 400, message Bad request version ('w3')
+[13/Mar/2024 15:14:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:31] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:14:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:32] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:14:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:32] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:14:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:14:32] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:14:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:11] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[13/Mar/2024 15:15:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:11] code 400, message Bad request version ('\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06::\x03\x04\x03\x03\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00')
+[13/Mar/2024 15:15:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:11] code 400, message Bad request version ('Q\x068\x08ÓÌ\x00éa\x83FCù9\x0e\x89w\x17%Ñ;\x93')
+[13/Mar/2024 15:15:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:11] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[13/Mar/2024 15:15:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:15] code 400, message Bad request version ('Pª\x13\x9c\x88j\x8aÜ\x1b\x15®W\x104ôÖg\x0f??\x1bA\x9aE\x13³')
+[13/Mar/2024 15:15:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:15] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:15:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x0f\x01\x00\x02')
+[13/Mar/2024 15:15:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:15:15] code 400, message Bad request syntax ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03^')
+[13/Mar/2024 15:15:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:16:03] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 15:16:03] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:16:05] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:05] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:16:07] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:07] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:16:07] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:16:07] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:16:07] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+Internal Server Error: /get_total_pomodoro_count/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 134, in debug_sql
+    yield
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.ProgrammingError: Cannot operate on a closed database.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 176, in last_executed_query
+    params = self._quote_params_for_last_executed_query(params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 162, in _quote_params_for_last_executed_query
+    cursor = self.connection.connection.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 51, in <lambda>
+    lambda u: u.is_authenticated,
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 33, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 13, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 216, in get_user
+    user = backend.get_user(user_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 157, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1565, in execute_sql
+    cursor.close()
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+Not Found: /favicon.ico
+[13/Mar/2024 15:16:08] "GET /favicon.ico HTTP/1.1" 404 7002
+[13/Mar/2024 15:16:08] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:16:08] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:10] "GET /get_total_pomodoro_count/ HTTP/1.1" 500 206705
+[13/Mar/2024 15:16:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 132169
+[13/Mar/2024 15:16:15] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:16:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 15:17:24] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:17:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:17:24] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:17:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:17:24] code 400, message Bad request version ('åH')
+[13/Mar/2024 15:17:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:17:25] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:17:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:17:25] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:17:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:17:25] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[13/Mar/2024 15:17:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:18:04] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 15:18:04] "GET /static/styles.css HTTP/1.1" 200 2256
+[13/Mar/2024 15:18:04] "GET /static/script.js HTTP/1.1" 200 20433
+[13/Mar/2024 15:18:06] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:06] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:06] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:06] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:06] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:06] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:07] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:07] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:08] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:08] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:08] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:09] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:13] "GET /accounts/login/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:15] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:18:16] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:18:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:17] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:17] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:17] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:17] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:17] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:18] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:18] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:18] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:18] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:18] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:20] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[13/Mar/2024 15:18:22] "POST /accounts/login/ HTTP/1.1" 302 0
+[13/Mar/2024 15:18:22] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 15:18:24] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:18:27] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[13/Mar/2024 15:18:27] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:18:28] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:18:28] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:18:28] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:18:28] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 15:18:29] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 15:18:29] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:18:36] "GET /ranking/ HTTP/1.1" 200 10659
+[13/Mar/2024 15:18:37] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 15:18:38] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 15:18:39] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 15:18:39] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 15:18:39] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 15:18:39] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 15:18:39] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 15:18:39] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 15:18:45] code 400, message Bad request version ('jn\x98ª¸2{ªG`\x117d\x9f¶\x90©Æ\x11"\x14´Ëÿy4\x04')
+[13/Mar/2024 15:18:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:18:45] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âªª\x00\x00\x003\x00+\x00)')
+[13/Mar/2024 15:18:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:18:48] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â**\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:18:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:18:48] code 400, message Bad request version ('M\x99j»')
+[13/Mar/2024 15:18:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:21:50] code 400, message Bad request version ('7\x00Ð\x15*~\x9bô)')
+[13/Mar/2024 15:21:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:21:50] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â\x1a\x1a\x00\x00\x00')
+[13/Mar/2024 15:21:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:21:51] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[13/Mar/2024 15:21:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:21:51] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢jj\x00\x00\x00')
+[13/Mar/2024 15:21:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('\x02h2\x08http/1.1\x00#\x00\x00Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¢JJ\x00\x00\x00-\x00\x02\x01\x01\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:40] code 400, message Bad request version ('dayoneapp.co\x00')
+[13/Mar/2024 15:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:44] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Â')
+[13/Mar/2024 15:25:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:45] code 400, message Bad request version ('G\x86\x87¾,ûEa\x08\x185`¸#\x00')
+[13/Mar/2024 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:45] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[13/Mar/2024 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:45] code 400, message Bad request version ('\x9bÜ>ª\x87I\x03y\x17\x8ac\x8d\x00')
+[13/Mar/2024 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:45] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:45] code 400, message Bad request version ('=´\\è\x83@¼µ\x9b\x82/øÙ\x7fRïË[ì-ø')
+[13/Mar/2024 15:25:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:51] code 400, message Bad request version ('dayoneapp.co\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 15:25:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:51] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00')
+[13/Mar/2024 15:25:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:51] code 400, message Bad request version ('ü\x8f®7')
+[13/Mar/2024 15:25:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:51] code 400, message Bad request version ('\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00')
+[13/Mar/2024 15:25:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:52] code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00\x17\x00\x00\x00')
+[13/Mar/2024 15:25:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:25:52] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[13/Mar/2024 15:25:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 15:53:37] "GET / HTTP/1.1" 200 8292
+[13/Mar/2024 15:53:37,984] - Broken pipe from ('49.51.73.254', 59068)
+[13/Mar/2024 16:07:30] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 16:07:31] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 16:07:32] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:32] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 16:07:33] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:33] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 16:07:34] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 16:07:34] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 16:07:34] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 16:07:34] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 16:07:34] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[13/Mar/2024 16:07:35] "GET /favicon.ico HTTP/1.1" 404 7002
+[13/Mar/2024 16:07:35] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:36] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:38] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:39] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:39] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:07:55] "GET /ranking/ HTTP/1.1" 200 10659
+[13/Mar/2024 16:07:56] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 16:07:57] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 16:07:57] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 16:07:57] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 16:07:57] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 16:07:57] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 16:07:57] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 16:07:57] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 16:08:20] "GET /ranking/?goal=&gender=female HTTP/1.1" 200 8480
+[13/Mar/2024 16:08:20] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 16:08:21] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 16:08:21] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 16:08:21] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 16:08:21] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 16:08:21] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 16:08:21] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 16:08:21] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 16:08:34] "GET / HTTP/1.1" 200 32999
+[13/Mar/2024 16:08:35] "GET /static/styles.css HTTP/1.1" 304 0
+[13/Mar/2024 16:08:35] "GET /static/script.js HTTP/1.1" 304 0
+[13/Mar/2024 16:08:36] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[13/Mar/2024 16:08:36] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[13/Mar/2024 16:08:36] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[13/Mar/2024 16:08:36] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[13/Mar/2024 16:08:36] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[13/Mar/2024 16:08:36] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[13/Mar/2024 16:08:41] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:08:42] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:08:43] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:08:44] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:08:45] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[13/Mar/2024 16:09:10] code 400, message Bad request version ('À')
+[13/Mar/2024 16:09:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:03] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âúú\x00\x00\x00')
+[13/Mar/2024 16:12:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:03] code 400, message Bad request version ('ÃªÔ\x9e8PÔî.½±\x06«Î\x80¹3å"µ4\x94þèÉ£')
+[13/Mar/2024 16:12:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:04] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[13/Mar/2024 16:12:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:04] code 400, message Bad request version ("æ¢<óE*4K©³\x93«m«ÒéDo.cÁºÂ\x8c'$Þ0?Ù~%\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00\x12\x00\x00\x00")
+[13/Mar/2024 16:12:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:04] code 400, message Bad request version ('\x80¸³\x94ø\x17<JI\x83\x1aIIb\x97\x0f\x1b\\\x88`Di\x00\x05\x00\x03\x02h2\x00')
+[13/Mar/2024 16:12:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:04] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[13/Mar/2024 16:12:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:07] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00')
+[13/Mar/2024 16:12:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:08] code 400, message Bad request version ('ÑúÞsÊ@\x80¦ùÌ\x16\x19\x88y\x00')
+[13/Mar/2024 16:12:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:08] code 400, message Bad request syntax ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03\x98=-H')
+[13/Mar/2024 16:12:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:08] code 400, message Bad request version ('ø¡hIÃ\x94×§')
+[13/Mar/2024 16:12:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:09] code 400, message Bad request version ('\x1bÉ\x94\x13\x87ð!}y¹»\x18¿àH_%\x7f\x03O\x8f¾Í\x16s\x9b\x13$\x86Mõ"\x00°ì²;75\x05å\x81Î')
+[13/Mar/2024 16:12:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 16:12:09] code 400, message Bad request version ('\x00B\x88K\x11')
+[13/Mar/2024 16:12:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 17:05:27] code 400, message Bad request version ('À\x14À')
+[13/Mar/2024 17:05:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 21:40:15] code 400, message Bad request version ('À\x13À')
+[13/Mar/2024 21:40:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 21:40:15] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03s¡\x9cÉ')
+[13/Mar/2024 21:40:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Mar/2024 23:49:20] "GET / HTTP/1.1" 200 8292
+[14/Mar/2024 03:24:12] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 03:24:13] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:13] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:24:13] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:14] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 03:24:14] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 03:24:14] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 03:24:14] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 03:24:15] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[14/Mar/2024 03:24:15] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 03:24:15] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+Not Found: /favicon.ico
+[14/Mar/2024 03:24:15] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[14/Mar/2024 03:24:17] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[14/Mar/2024 03:24:17] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 03:24:17,766] - Broken pipe from ('152.58.177.204', 49775)
+[14/Mar/2024 03:24:23] "GET /admin/ HTTP/1.1" 200 10502
+[14/Mar/2024 03:24:24] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+[14/Mar/2024 03:24:24] "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+[14/Mar/2024 03:24:24] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[14/Mar/2024 03:24:24] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[14/Mar/2024 03:24:24] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+[14/Mar/2024 03:24:24] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[14/Mar/2024 03:24:25] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[14/Mar/2024 03:24:25] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Mar/2024 03:24:25] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Mar/2024 03:24:25] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[14/Mar/2024 03:24:31] "GET /admin/myapp/product/ HTTP/1.1" 200 10372
+[14/Mar/2024 03:24:31] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:31] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+[14/Mar/2024 03:24:31] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[14/Mar/2024 03:24:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[14/Mar/2024 03:24:32] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:32] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:32] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:32] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[14/Mar/2024 03:24:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+[14/Mar/2024 03:24:33] "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+[14/Mar/2024 03:24:33] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[14/Mar/2024 03:24:33] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[14/Mar/2024 03:24:33] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[14/Mar/2024 03:24:33] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[14/Mar/2024 03:24:34] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:35] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:35] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Mar/2024 03:24:35] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[14/Mar/2024 03:24:47] "GET /admin/myapp/customuser/ HTTP/1.1" 200 10102
+[14/Mar/2024 03:24:47] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:47] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:47] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[14/Mar/2024 03:24:48] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:48] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:49] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:49] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:49] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:49] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:50] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:54] "GET /admin/myapp/customuser/1/change/ HTTP/1.1" 200 28569
+[14/Mar/2024 03:24:54] "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+[14/Mar/2024 03:24:54] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:54] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[14/Mar/2024 03:24:54] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:54] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[14/Mar/2024 03:24:54] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+[14/Mar/2024 03:24:55] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[14/Mar/2024 03:24:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:55] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:56] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[14/Mar/2024 03:24:56] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[14/Mar/2024 03:24:56] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[14/Mar/2024 03:24:56] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[14/Mar/2024 03:24:57] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[14/Mar/2024 03:24:57] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+Not Found: /favicon.ico
+[14/Mar/2024 03:24:57] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[14/Mar/2024 03:24:58] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 03:25:13] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 03:25:14] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 03:25:14] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:25:15] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 03:25:15] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:25:16] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 03:25:16] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 03:25:16] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 03:25:16] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 03:25:16] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 03:25:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 03:25:16] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 03:25:16] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 03:25:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 422977
+Not Found: /favicon.ico
+[14/Mar/2024 03:25:18] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 03:26:15] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 03:26:16] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 03:26:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:26:16] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 03:26:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:26:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 422977
+[14/Mar/2024 03:26:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 03:26:17] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 03:26:17] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 03:26:17] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 03:26:17] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 03:26:18] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 03:26:18] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 03:26:18] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[14/Mar/2024 03:26:19] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 03:26:43] code 400, message Bad request syntax ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03TJø,´ªP\x96¬5(ÂRPê\x98\x84\x00\x8b£ýë\x9a§\x8aáúþ')
+[14/Mar/2024 03:26:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:43] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03@'qwÓü\x005I")
+[14/Mar/2024 03:26:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:43] code 400, message Bad request version ('dayoneapp.co\x00-\x00\x02\x01\x01\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00')
+[14/Mar/2024 03:26:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:44] code 400, message Bad request version ('Jù\x9b,|\x91\x0e×\x1ag}OåjL\x00ð\x11E¶Õ+´\x98!ñã\x00©vJÐð9õmg\x83æñ\x8e}¸\x8c\xad6´Ì?ä')
+[14/Mar/2024 03:26:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:44] code 400, message Bad request version ('ÇNªû\x86=Ð¾\x01ÄVè9Ó´Ã«ª\x0eæÎ\x8d\x01\x98ô×õ\x03k\x99\x80\x1a\x00')
+[14/Mar/2024 03:26:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:44] code 400, message Bad request version ('}ÕÃ\x93\x07*t]\x9b\x97_õ\x9dC>ú÷&!ÀÈ')
+[14/Mar/2024 03:26:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:51] code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00')
+[14/Mar/2024 03:26:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:51] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âêê\x00\x00\x00-\x00\x02\x01\x01\x00')
+[14/Mar/2024 03:26:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:51] code 400, message Bad request version ('(Jfi')
+[14/Mar/2024 03:26:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:52] code 400, message Bad request version ('\x14û8Æ\x828\x95½\x88Ï\x8c\x8cþ\x8aÌ4\x963ùÞÒÑéR')
+[14/Mar/2024 03:26:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:52] code 400, message Bad request version ('ÿ¨\xadçß$[ê;Ò\x16\x95Àl5\x00')
+[14/Mar/2024 03:26:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:26:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03þ')
+[14/Mar/2024 03:26:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 03:27:00] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 03:27:00] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 03:27:00] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:27:00] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 03:27:01] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 422977
+[14/Mar/2024 03:27:01] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 03:27:01] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 03:27:02] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 03:27:02] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 03:27:02] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 03:27:02] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 03:27:02] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 03:27:02] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 03:27:02] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 04:25:40,941] - Broken pipe from ('167.94.138.127', 37438)
+[14/Mar/2024 04:25:44] "GET / HTTP/1.1" 200 8292
+[14/Mar/2024 04:25:44,025] - Broken pipe from ('167.94.138.127', 51546)
+[14/Mar/2024 04:25:48] "GET / HTTP/1.1" 200 8292
+[14/Mar/2024 04:25:48] code 505, message Invalid HTTP version (2.0)
+[14/Mar/2024 04:25:48] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[14/Mar/2024 04:25:49] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 04:51:52] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 04:51:53] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 04:51:53] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 04:51:53] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 04:51:54] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 04:51:54] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 04:51:54] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[14/Mar/2024 04:51:54] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 04:51:54] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+Internal Server Error: /get_total_pomodoro_count/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 51, in <lambda>
+    lambda u: u.is_authenticated,
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 33, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 13, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 316, in cursor
+    return self._cursor()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 191, in create_cursor
+    return self.connection.cursor(factory=SQLiteCursorWrapper)
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[14/Mar/2024 04:51:55] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[14/Mar/2024 04:51:55] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 04:51:55] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 04:51:55] "GET /get_total_pomodoro_count/ HTTP/1.1" 500 150563
+Not Found: /favicon.ico
+[14/Mar/2024 04:51:56] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 04:51:56] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 04:51:56,543] - Broken pipe from ('152.58.177.228', 51632)
+Not Found: /favicon.ico
+[14/Mar/2024 04:51:56] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 04:52:02] "GET /ranking/ HTTP/1.1" 200 10659
+[14/Mar/2024 04:52:03] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 04:52:03] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 04:52:04] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 04:52:04] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 04:52:04] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 04:52:04] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 04:52:04] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 04:52:04] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 05:12:22] code 400, message Bad request syntax ('MGLNDD_54.80.152.24_8000')
+[14/Mar/2024 05:12:22] "MGLNDD_54.80.152.24_8000" 400 -
+[14/Mar/2024 06:09:24] "GET / HTTP/1.1" 200 32999
+[14/Mar/2024 06:09:25] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:09:25] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:09:25] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:09:26] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[14/Mar/2024 06:09:26] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:09:26] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:09:26] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:09:26] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:09:26] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:09:26] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:09:27] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:09:27] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:09:27] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 06:09:28] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 06:09:28] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:09:29] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:09:55] "GET /get_current_user_id/ HTTP/1.1" 200 14
+[14/Mar/2024 06:09:56] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:09:56] "POST /add_pomodoro/ HTTP/1.1" 200 11
+[14/Mar/2024 06:09:56] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:09:57] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:09:57] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:09:57] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:09:57] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 139164
+[14/Mar/2024 06:09:57] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:10:07] "GET /ranking/ HTTP/1.1" 200 10659
+[14/Mar/2024 06:10:07] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:10:07] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:10:08] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:10:08] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:10:08] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:10:08] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:10:08] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:10:09] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:10:12] "GET /ranking/?goal=&gender=female HTTP/1.1" 200 8480
+[14/Mar/2024 06:10:13] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:10:13] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:10:14] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:10:14] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:10:14] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:10:14] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:10:14] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:10:14] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:10:20] "GET /ranking/?goal=&gender=male HTTP/1.1" 200 9952
+[14/Mar/2024 06:10:20] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:10:20] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:10:21] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:10:22] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:10:22] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:10:22] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:10:22] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:10:22] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1659: RuntimeWarning: DateTimeField Task.scheduled_datetime received a naive datetime (2024-03-14 11:45:00) while time zone support is active.
+  warnings.warn(
+[14/Mar/2024 06:11:11] "POST /addtask/ HTTP/1.1" 200 35675
+[14/Mar/2024 06:11:11] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:11] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:11:12] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:11:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:13] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:11:13] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:11:13] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:11:13] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:11:13] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:11:14] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:11:14] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:14] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 283021
+[14/Mar/2024 06:11:14] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:14] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:15] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:11:26] "POST /tasks/27/complete/ HTTP/1.1" 302 0
+[14/Mar/2024 06:11:27] "GET / HTTP/1.1" 200 33666
+[14/Mar/2024 06:11:27] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:11:28] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:11:29] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:11:29] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:11:29] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:11:29] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:11:29] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:11:29] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:11:46] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:32:32] "GET /addtask/ HTTP/1.1" 200 8459
+[14/Mar/2024 06:32:33] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:32:33] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:32:35] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:32:35] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:32:35] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:32:35] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:32:35] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:32:35] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[14/Mar/2024 06:32:36] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 06:32:47] "GET /addtask/ HTTP/1.1" 200 8459
+[14/Mar/2024 06:32:48] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:32:48] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:32:49] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:32:49] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:32:49] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:32:49] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:32:49] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:32:49] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:33:03] "GET / HTTP/1.1" 200 33666
+[14/Mar/2024 06:33:05] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:33:06] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:07] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:33:07] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:07] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:07] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:33:07] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:33:07] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:33:07] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:33:08] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:33:09] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 422185
+[14/Mar/2024 06:33:09] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:33:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:11] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:33:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:06] "GET / HTTP/1.1" 200 33666
+[14/Mar/2024 06:56:07] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:56:07] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:56:08] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:56:08] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:56:08] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:56:08] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:56:08] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:56:08] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:56:09] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 06:56:10] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 06:56:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:11] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:13] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:17] "POST /tasks/20/complete/ HTTP/1.1" 302 0
+[14/Mar/2024 06:56:18] "GET / HTTP/1.1" 200 31659
+[14/Mar/2024 06:56:18] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:56:19] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:56:20] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:56:20] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:56:20] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:56:20] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:56:20] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:56:20] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:56:39] "POST /addtask/ HTTP/1.1" 200 34325
+[14/Mar/2024 06:56:39] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:56:39] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:40] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:56:41] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:41] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:56:41] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:56:41] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:56:42] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:56:42] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:56:42] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:56:42] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:44] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:44] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:46] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 431761
+[14/Mar/2024 06:56:46] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:56:47] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 06:57:39] "GET /help/ HTTP/1.1" 200 7308
+[14/Mar/2024 06:57:42] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:57:42] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:57:42] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:57:42] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:57:43] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:57:43] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:57:43] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:57:43] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:57:54] "GET /about/ HTTP/1.1" 200 5479
+[14/Mar/2024 06:57:55] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:57:55] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:57:56] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:57:56] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:57:56] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:57:56] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:57:56] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:57:56] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:58:25] "GET /help/ HTTP/1.1" 200 7308
+[14/Mar/2024 06:58:26] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 06:58:26] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 06:58:27] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:58:27] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 06:58:27] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 06:58:27] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 06:58:27] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 06:58:27] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 06:58:41] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 06:58:41] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 07:05:55] "GET / HTTP/1.1" 200 8292
+[14/Mar/2024 07:14:32] "GET / HTTP/1.1" 200 8292
+[14/Mar/2024 07:17:22] code 400, message Bad request version ('À\x14À')
+[14/Mar/2024 07:17:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 08:06:40] "GET / HTTP/1.1" 200 34325
+Not Found: /c/
+[14/Mar/2024 08:32:20] "GET /c/ HTTP/1.1" 404 6965
+[14/Mar/2024 11:59:43] "GET / HTTP/1.1" 200 34325
+[14/Mar/2024 11:59:43] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 11:59:43] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 11:59:43] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 11:59:44] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 11:59:44] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 11:59:44] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 11:59:44] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 11:59:44] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 11:59:45] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 11:59:45] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+Not Found: /favicon.ico
+[14/Mar/2024 11:59:45] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 12:00:29] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[14/Mar/2024 12:00:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:00:29] code 400, message Bad request version ('\x01\x1a\x00\x00\x01\x00\x01\x05\x00')
+[14/Mar/2024 12:00:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:00:29] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00')
+[14/Mar/2024 12:00:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:00:30] code 400, message Bad request syntax ('\x16\x03\x01\x02/\x01\x00\x02+\x03\x03æ¹ðÝÍYlÀÔý|¬i\x89X¦SýXû\x97ÜÍ\\')
+[14/Mar/2024 12:00:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:00:30] code 400, message Bad request version ('ôú×ü\x10\x931µh\x10')
+[14/Mar/2024 12:00:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:00:30] code 400, message Bad request version ('dayoneapp.co\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[14/Mar/2024 12:00:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:22:34] code 400, message Bad request version ('X&q\x94H¡É$¥\x87ª½\x0f')
+[14/Mar/2024 12:22:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:22:34] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[14/Mar/2024 12:22:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:22:35] code 400, message Bad request version ('j')
+[14/Mar/2024 12:22:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:22:35] code 400, message Bad request version ("\x02Öö2âC\x9b½\x04|Dé¡»^\x10Üp\x8dáMî&Hò\x1a'×òi\x19]Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00")
+[14/Mar/2024 12:22:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 12:22:35] "GET / HTTP/1.1" 200 34325
+[14/Mar/2024 12:22:35] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 12:22:36] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 12:22:36] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 12:22:36] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 12:22:36] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 12:22:36] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 12:22:37] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 12:22:37] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 12:22:37] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 12:22:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 12:22:37] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 12:22:38] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 433117
+[14/Mar/2024 12:37:24] "GET / HTTP/1.1" 200 34870
+[14/Mar/2024 12:37:25] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 12:37:30] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 12:37:31] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 12:37:31] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 12:37:31] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 12:37:31] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 12:37:31] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 12:37:31] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /.env
+[14/Mar/2024 12:52:02] "GET /.env HTTP/1.1" 404 6974
+[14/Mar/2024 13:00:24] code 400, message Bad request version ('äª±{^é\x17\x82\x9d\x81\x9fLÜ\\|lÀ')
+[14/Mar/2024 13:00:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 13:00:24] code 400, message Bad request version ('\x92÷\x90µµþ\x0e4g\x99{ÅHR´Í\x07<K\x89<ð$')
+[14/Mar/2024 13:00:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 13:00:24] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[14/Mar/2024 13:00:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 13:00:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03rÙ\xad\x11E;Ê2s8Àáß]+')
+[14/Mar/2024 13:00:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 13:00:25] code 400, message Bad request version ('-')
+[14/Mar/2024 13:00:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 13:00:25] code 400, message Bad request version ('Å^v\x7fß(|Ôl\x1103,å\x98Y\x0fá\x11')
+[14/Mar/2024 13:00:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin/scripts/setup.php
+[14/Mar/2024 14:12:14] "GET http://54.80.152.24:8000/phpMyAdmin/scripts/setup.php HTTP/1.0" 404 2023
+Not Found: /http:/54.80.152.24:8000/phpmyadmin/scripts/setup.php
+[14/Mar/2024 14:12:15] "GET http://54.80.152.24:8000/phpmyadmin/scripts/setup.php HTTP/1.0" 404 2023
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.4/scripts/setup.php
+[14/Mar/2024 14:12:16] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.3/scripts/setup.php
+[14/Mar/2024 14:12:17] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.3/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.10.0.2/scripts/setup.php
+[14/Mar/2024 14:12:17] "GET http://54.80.152.24:8000/phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.0" 404 2050
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.10.3/scripts/setup.php
+[14/Mar/2024 14:12:18] "GET http://54.80.152.24:8000/phpMyAdmin-2.10.3/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.8.0.2/scripts/setup.php
+[14/Mar/2024 14:12:19] "GET http://54.80.152.24:8000/phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0" 404 2047
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.10.2/scripts/setup.php
+[14/Mar/2024 14:12:19] "GET http://54.80.152.24:8000/phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.9.2/scripts/setup.php
+[14/Mar/2024 14:12:21] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0" 404 2050
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.0/scripts/setup.php
+[14/Mar/2024 14:12:21] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.0/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.7/scripts/setup.php
+[14/Mar/2024 14:12:22] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.7/scripts/setup.php HTTP/1.0" 404 2044
+Not Found: /http:/54.80.152.24:8000/phpMyAdmin-2.11.1.2/scripts/setup.php
+[14/Mar/2024 14:12:22] "GET http://54.80.152.24:8000/phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.0" 404 2050
+Not Found: /http:/54.80.152.24:8000/admin/pma/scripts/setup.php
+[14/Mar/2024 14:15:11] "GET http://54.80.152.24:8000/admin/pma/scripts/setup.php HTTP/1.0" 404 2020
+Not Found: /http:/54.80.152.24:8000/dbadmin/scripts/setup.php
+[14/Mar/2024 14:16:13] "GET http://54.80.152.24:8000/dbadmin/scripts/setup.php HTTP/1.0" 404 2014
+[14/Mar/2024 14:22:10] code 400, message Bad request syntax ('\x01\x01æ')
+[14/Mar/2024 14:22:10] "æ" 400 -
+[14/Mar/2024 16:23:14] "GET / HTTP/1.1" 200 34325
+[14/Mar/2024 16:23:14] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 16:23:14] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 16:23:15] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 16:23:15] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 16:23:16] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 16:23:16] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 16:23:16] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 16:23:16] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 16:23:32] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[14/Mar/2024 16:23:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 16:23:32] code 400, message Bad request version ('SWä')
+[14/Mar/2024 16:23:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 16:23:33] code 400, message Bad request version ("´'\x00")
+[14/Mar/2024 16:23:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 16:23:33] code 400, message Bad request version ('¸oS³ÑÝ\x8bèúõô*4æ\x87\x19íLºL\x9e\x8d\x13\x9e1ÇáÒ½\x9c\x8d\x90\x83`^»\x1bõÃ\x82&Í\x9f?\x87_%@°L\x03¦N\x18\x12Ý')
+[14/Mar/2024 16:23:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 16:23:33] "GET / HTTP/1.1" 200 34325
+[14/Mar/2024 16:23:34] "GET /static/styles.css HTTP/1.1" 304 0
+[14/Mar/2024 16:23:34] "GET /static/script.js HTTP/1.1" 304 0
+[14/Mar/2024 16:23:35] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 16:23:35] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[14/Mar/2024 16:23:35] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[14/Mar/2024 16:23:36] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[14/Mar/2024 16:23:36] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[14/Mar/2024 16:23:36] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 16:23:36] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[14/Mar/2024 16:23:36] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[14/Mar/2024 16:23:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Mar/2024 16:23:37] "GET /favicon.ico HTTP/1.1" 404 7002
+[14/Mar/2024 16:23:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[14/Mar/2024 16:23:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[14/Mar/2024 16:23:38] code 400, message Bad request version ("\x1a`Ú\x84\x8eûl¨\x9fsEÕi%',(è*éÈ,Ìù4\x9d.À\x87i©B\x00")
+[14/Mar/2024 16:23:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 16:23:38] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00')
+[14/Mar/2024 16:23:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 20:16:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03éñKÇ\x82\x89Û§²¹J&\x98ð\x08%¸W\x9b\x89©\x92dç\x02;ê!tlo\x9b')
+[14/Mar/2024 20:16:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Mar/2024 20:16:13] "GET / HTTP/1.1" 200 8292
+Not Found: /favicon.ico
+[14/Mar/2024 20:16:32] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /robots.txt
+[14/Mar/2024 20:16:33] "GET /robots.txt HTTP/1.1" 404 6998
+Not Found: /sitemap.xml
+[14/Mar/2024 20:16:33] "GET /sitemap.xml HTTP/1.1" 404 7002
+[14/Mar/2024 20:16:34] "GET /static/script.js HTTP/1.1" 200 20433
+[14/Mar/2024 23:45:51] "GET / HTTP/1.1" 200 8292
+[15/Mar/2024 00:24:38] "GET / HTTP/1.1" 200 8292
+[15/Mar/2024 00:37:50] code 400, message Bad request version ('À\x14À')
+[15/Mar/2024 00:37:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 04:19:53] "GET / HTTP/1.1" 200 8292
+Not Found: /http:/api.ipify.org/
+[15/Mar/2024 04:20:18] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1919
+Not Found: /www.shadowserver.org:443
+[15/Mar/2024 04:20:28] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1928
+[15/Mar/2024 04:40:34] code 400, message Bad request syntax ('MGLNDD_54.80.152.24_8000')
+[15/Mar/2024 04:40:34] "MGLNDD_54.80.152.24_8000" 400 -
+[15/Mar/2024 05:40:05] code 400, message Bad request version ('À\x14À')
+[15/Mar/2024 05:40:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 09:03:53] "GET / HTTP/1.1" 200 8292
+Not Found: /http:/httpbin.org/ip
+[15/Mar/2024 10:12:35] "GET http://httpbin.org/ip HTTP/1.1" 404 1905
+[15/Mar/2024 14:23:23] "GET / HTTP/1.1" 200 8292
+[15/Mar/2024 14:23:23] code 505, message Invalid HTTP version (2.0)
+[15/Mar/2024 14:23:23] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[15/Mar/2024 14:23:23] "GET /favicon.ico HTTP/1.1" 404 7002
+[15/Mar/2024 17:32:53] "GET / HTTP/1.1" 200 34325
+[15/Mar/2024 17:32:54] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 17:32:54] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 17:32:55] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 17:32:55] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 17:32:55] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 17:32:55] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 17:32:55] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 17:32:55] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 17:32:56] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:32:56] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/Mar/2024 17:32:56] "GET /favicon.ico HTTP/1.1" 404 7002
+[15/Mar/2024 17:32:57] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:32:57] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:32:58] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:32:58] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 433129
+[15/Mar/2024 17:32:58] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:32:58,848] - Broken pipe from ('223.191.2.9', 33602)
+[15/Mar/2024 17:33:36] "GET /get_current_user_id/ HTTP/1.1" 200 14
+[15/Mar/2024 17:33:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 17:33:37] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 17:33:37] "POST /add_pomodoro/ HTTP/1.1" 200 11
+[15/Mar/2024 17:33:37] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 17:33:38] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 17:33:38] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 17:33:38] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 17:33:38] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 17:33:46] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 430393
+[15/Mar/2024 17:33:57] code 400, message Bad request version ('È')
+[15/Mar/2024 17:33:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 17:33:57] code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00')
+[15/Mar/2024 17:33:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 17:34:32] "GET /ranking/ HTTP/1.1" 200 10659
+[15/Mar/2024 17:34:33] code 400, message Bad request syntax ('\x16\x03\x01\x02O\x01\x00\x02K\x03\x03~ñ')
+[15/Mar/2024 17:34:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 17:34:33] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 17:34:33] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 17:34:33] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Âºº\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x00+\x00)')
+[15/Mar/2024 17:34:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Mar/2024 17:34:34] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 17:34:34] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 17:34:34] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 17:34:34] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 17:34:34] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 17:34:34] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 17:35:10] "GET /ranking/?goal=&gender=female HTTP/1.1" 200 8480
+[15/Mar/2024 17:35:11] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 17:35:11] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 17:35:12] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 17:35:12] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 17:35:12] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 17:35:12] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 17:35:12] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 17:35:12] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:16:32] "GET / HTTP/1.1" 200 34325
+[15/Mar/2024 18:16:33] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:16:35] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:16:36] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:16:36] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:16:36] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:16:36] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:16:36] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:16:36] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[15/Mar/2024 18:17:32] "GET /favicon.ico HTTP/1.1" 404 7002
+[15/Mar/2024 18:17:33] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:17:34] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:17:34] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:17:36] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:17:37] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:08] "POST /addtask/ HTTP/1.1" 200 36982
+[15/Mar/2024 18:18:08] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:18:09] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:10] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:18:11] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:11] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:11] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:18:11] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:18:11] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:18:11] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:18:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:12] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:18:13] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:13] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:15] "POST /tasks/31/complete/ HTTP/1.1" 302 0
+[15/Mar/2024 18:18:16] "GET / HTTP/1.1" 200 34973
+[15/Mar/2024 18:18:16] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:18:17] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:18:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:17] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:18:17] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:18:17] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:18:17] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:18:17] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:18:30] "POST /addtask/ HTTP/1.1" 200 37641
+[15/Mar/2024 18:18:30] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:18:31] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:31] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:18:32] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[15/Mar/2024 18:18:32] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:32] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:18:32] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:18:32] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:18:32] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:18:33] "POST /addtask/ HTTP/1.1" 200 40298
+[15/Mar/2024 18:18:33] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:18:34] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:18:34] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:34] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:18:34] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:18:34] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:18:34] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:18:34] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:18:46] "GET /ranking/ HTTP/1.1" 200 10659
+[15/Mar/2024 18:18:46] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:18:46] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:18:47] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:18:47] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:18:47] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:47] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:18:47] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:18:47] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:18:56] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:18:59] "GET /addtask/ HTTP/1.1" 200 8459
+[15/Mar/2024 18:18:59] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:19:00] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:19:01] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[15/Mar/2024 18:19:01] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[15/Mar/2024 18:19:01] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[15/Mar/2024 18:19:01] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[15/Mar/2024 18:19:01] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[15/Mar/2024 18:19:01] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[15/Mar/2024 18:19:14] "GET /accounts/logout/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:15] "GET / HTTP/1.1" 200 8292
+[15/Mar/2024 18:19:16] "GET /static/styles.css HTTP/1.1" 304 0
+[15/Mar/2024 18:19:16] "GET /static/script.js HTTP/1.1" 304 0
+[15/Mar/2024 18:19:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:17] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:17] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:17] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:17] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:17] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[15/Mar/2024 18:19:18] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[16/Mar/2024 01:15:50,557] - Broken pipe from ('199.45.155.19', 51146)
+[16/Mar/2024 01:15:53] "GET / HTTP/1.1" 200 8292
+[16/Mar/2024 01:15:54,021] - Broken pipe from ('199.45.155.19', 57480)
+[16/Mar/2024 01:15:57] "GET / HTTP/1.1" 200 8292
+[16/Mar/2024 01:15:57] code 505, message Invalid HTTP version (2.0)
+[16/Mar/2024 01:15:57] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[16/Mar/2024 01:15:58] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 02:54:50] "GET / HTTP/1.1" 200 8292
+[16/Mar/2024 05:07:57] code 400, message Bad request syntax ('MGLNDD_54.80.152.24_8000')
+[16/Mar/2024 05:07:57] "MGLNDD_54.80.152.24_8000" 400 -
+[16/Mar/2024 06:20:49] "GET / HTTP/1.1" 200 8292
+[16/Mar/2024 06:20:51] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:20:51] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:20:52] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[16/Mar/2024 06:20:53] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:20:53] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:20:53] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:20:53] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:20:53] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[16/Mar/2024 06:20:54] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:20:55] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:00] "GET /accounts/login/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:01] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:21:01] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:21:02] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /get_daily_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /get_total_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:02] "GET /accounts/login/?next=/convert_pomodoros_to_currency/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:02] "GET /accounts/login/?next=/get_daily_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:02] "GET /accounts/login/?next=/get_yearly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:02] "GET /accounts/login/?next=/get_total_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:02] "GET /accounts/login/?next=/get_weekly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:03] "GET /accounts/login/?next=/get_monthly_pomodoro_count/ HTTP/1.1" 200 4905
+[16/Mar/2024 06:21:04] "POST /accounts/login/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:05] "POST /accounts/login/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:06] "GET / HTTP/1.1" 200 40298
+[16/Mar/2024 06:21:06] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:21:07] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:21:07] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:07] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:08] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:21:08] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[16/Mar/2024 06:21:08] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:21:08] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:21:08,682] - Broken pipe from ('223.191.2.9', 30493)
+[16/Mar/2024 06:21:08] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:21:08] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:21:09] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[16/Mar/2024 06:21:09] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:09] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:10] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:12] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:13] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:21:43] "POST /tasks/32/complete/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:45] "GET / HTTP/1.1" 200 38289
+[16/Mar/2024 06:21:47] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:21:48] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:21:50] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:21:50] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:21:50] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:21:51] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:21:52] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:21:53] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[16/Mar/2024 06:21:56] "POST /tasks/33/complete/ HTTP/1.1" 302 0
+[16/Mar/2024 06:21:57] "GET / HTTP/1.1" 200 36280
+[16/Mar/2024 06:21:57] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:21:58] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:21:59] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:21:59] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:21:59] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:21:59] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:21:59] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:21:59] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[16/Mar/2024 06:22:00] "POST /addtask/ HTTP/1.1" 200 38937
+[16/Mar/2024 06:22:02] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:22:02] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:22:02] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:22:03] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:22:03] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:22:04] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:22:04] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:22:06] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:22:06] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:22:07] "POST /tasks/34/complete/ HTTP/1.1" 302 0
+[16/Mar/2024 06:22:07] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[16/Mar/2024 06:22:08] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:22:08] "GET / HTTP/1.1" 200 36928
+[16/Mar/2024 06:22:09] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:22:09] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:22:10] "POST /tasks/14/complete/ HTTP/1.1" 302 0
+[16/Mar/2024 06:22:10] "GET / HTTP/1.1" 200 34919
+[16/Mar/2024 06:22:11] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:22:11] "GET /static/script.js HTTP/1.1" 200 20433
+[16/Mar/2024 06:22:12] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:22:12] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:22:12] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:22:13] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:22:13] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:22:13] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+[16/Mar/2024 06:22:46] "GET / HTTP/1.1" 200 34919
+[16/Mar/2024 06:22:47] "GET /static/styles.css HTTP/1.1" 200 2256
+[16/Mar/2024 06:22:47] "GET /static/script.js HTTP/1.1" 200 20433
+[16/Mar/2024 06:22:48] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[16/Mar/2024 06:22:50] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 434076
+[16/Mar/2024 06:22:51] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:22:51] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:22:51] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:22:51] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:22:51] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Internal Server Error: /get_yearly_pomodoro_count/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 134, in debug_sql
+    yield
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.ProgrammingError: Cannot operate on a closed database.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 176, in last_executed_query
+    params = self._quote_params_for_last_executed_query(params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 162, in _quote_params_for_last_executed_query
+    cursor = self.connection.connection.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 51, in <lambda>
+    lambda u: u.is_authenticated,
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 33, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 13, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 216, in get_user
+    user = backend.get_user(user_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 157, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1565, in execute_sql
+    cursor.close()
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+Not Found: /favicon.ico
+[16/Mar/2024 06:22:52] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:22:52] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 500 207672
+Not Found: /favicon.ico
+[16/Mar/2024 06:22:52] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[16/Mar/2024 06:22:53] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:22:57] "GET /admin/ HTTP/1.1" 200 10502
+[16/Mar/2024 06:22:58] "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+[16/Mar/2024 06:22:58] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+[16/Mar/2024 06:22:58] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+[16/Mar/2024 06:22:58] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[16/Mar/2024 06:22:58] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[16/Mar/2024 06:22:58] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[16/Mar/2024 06:22:59] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[16/Mar/2024 06:22:59] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[16/Mar/2024 06:22:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[16/Mar/2024 06:22:59] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[16/Mar/2024 06:23:02] "GET /admin/myapp/task/ HTTP/1.1" 200 12923
+[16/Mar/2024 06:23:03] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[16/Mar/2024 06:23:03] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:03] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+[16/Mar/2024 06:23:03] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:04] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[16/Mar/2024 06:23:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[16/Mar/2024 06:23:04] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[16/Mar/2024 06:23:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+[16/Mar/2024 06:23:04] "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+[16/Mar/2024 06:23:05] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[16/Mar/2024 06:23:05] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[16/Mar/2024 06:23:06] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:06] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[16/Mar/2024 06:23:07] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:08] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[16/Mar/2024 06:23:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[16/Mar/2024 06:23:18] "POST /admin/myapp/task/ HTTP/1.1" 200 8448
+[16/Mar/2024 06:23:19] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:19] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:19] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:19] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:19] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:20] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:21] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:21] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:21] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[16/Mar/2024 06:23:23] "POST /admin/myapp/task/ HTTP/1.1" 302 0
+[16/Mar/2024 06:23:24] "GET /admin/myapp/task/ HTTP/1.1" 200 12044
+[16/Mar/2024 06:23:25] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:25] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:25] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:25] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[16/Mar/2024 06:23:25] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:26] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:27] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:27] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:28] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:28] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:28] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[16/Mar/2024 06:23:28] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:37] "GET /admin/myapp/task/ HTTP/1.1" 200 11909
+[16/Mar/2024 06:23:38] "GET /admin/ HTTP/1.1" 200 10300
+[16/Mar/2024 06:23:54] "GET /admin/ HTTP/1.1" 200 10300
+[16/Mar/2024 06:23:55] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:55] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:55] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:55] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:55] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:55] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:56] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Mar/2024 06:23:58] "GET /admin/myapp/task/ HTTP/1.1" 200 11909
+[16/Mar/2024 06:23:59] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:59] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:59] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[16/Mar/2024 06:23:59] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:23:59] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:00] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:01] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:01] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:02] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:02] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:02] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:13] "GET /admin/ HTTP/1.1" 200 10300
+[16/Mar/2024 06:24:13] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:13] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:14] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:14] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:14] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:14] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:15] "GET / HTTP/1.1" 200 32316
+[16/Mar/2024 06:24:15] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:15] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:24:16] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:16] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+[16/Mar/2024 06:24:17] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:24:17] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:24:17] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:24:17] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:24:17] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 206 211282
+[16/Mar/2024 06:24:17] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:24:18] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[16/Mar/2024 06:24:18] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:24:18] "GET /static/mixkit-ethereal-fairy-win-sound-2019.wav HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Mar/2024 06:24:19] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:24:21] "GET / HTTP/1.1" 200 32861
+[16/Mar/2024 06:24:22] "GET /static/styles.css HTTP/1.1" 304 0
+[16/Mar/2024 06:24:23] "GET /static/script.js HTTP/1.1" 304 0
+[16/Mar/2024 06:24:24] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:24:24] "GET /get_daily_pomodoro_count/ HTTP/1.1" 200 18
+[16/Mar/2024 06:24:24] "GET /get_total_pomodoro_count/ HTTP/1.1" 200 19
+[16/Mar/2024 06:24:24] "GET /get_weekly_pomodoro_count/ HTTP/1.1" 200 264
+[16/Mar/2024 06:24:24] "GET /get_yearly_pomodoro_count/ HTTP/1.1" 200 48
+[16/Mar/2024 06:24:24] "GET /get_monthly_pomodoro_count/ HTTP/1.1" 200 336
+Not Found: /favicon.ico
+[16/Mar/2024 06:24:25] "GET /favicon.ico HTTP/1.1" 404 7002
+Not Found: /favicon.ico
+[16/Mar/2024 06:24:25] "GET /favicon.ico HTTP/1.1" 404 7002
+[16/Mar/2024 06:30:49] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+[16/Mar/2024 06:30:50] "GET /accounts/login/ HTTP/1.1" 200 5069
+[16/Mar/2024 06:30:50] "POST /convert_pomodoros_to_currency/ HTTP/1.1" 200 42
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 173, in finish_response
+    super().finish_response()
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 184, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 293, in write
+    self._write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 467, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 173, in finish_response
+    super().finish_response()
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 184, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 293, in write
+    self._write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 467, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 173, in finish_response
+    super().finish_response()
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 184, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 293, in write
+    self._write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 467, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 173, in finish_response
+    super().finish_response()
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 184, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 293, in write
+    self._write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 467, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 173, in finish_response
+    super().finish_response()
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 184, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 293, in write
+    self._write(data)
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 467, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
