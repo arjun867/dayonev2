@@ -107,7 +107,7 @@
                                 <div class="dropdown-menu" data-task-id="{{ task.id }}">
                                     <div class="custom-timer-card" data-task-id="{{ task.id }}">
                                         <div class="dropdown-item d-flex justify-content-center align-items-center  custom-timer-card" data-task-id="{{ task.id }}">
-                                            <div class="custom-timer-display" data-task-id="{{ task.id }}">00:12</div>
+                                            <div class="custom-timer-display" data-task-id="{{ task.id }}">25:00</div>
                                             <div class="ml-2">
                                                 <button class="btn btn-success custom-start-timer" data-task-id="{{ task.id }}" >Start</button>
                                                 <button class="btn btn-danger custom-pause-timer" data-task-id="{{ task.id }}" >Pause</button>
@@ -192,7 +192,7 @@
             </div>
 
             <div class="col-xs-12 col-lg-4">
-                <h4>PROGRESS</h4> 
+                <h4 class="progresstext">PROGRESS</h4> 
                 <a href="{% url 'ranking' %}"><h5>ranking</h5></a>
                 <h5>Daily Pomodoros: <span id="dailyCount"></span></h5>
                 <h5>Weekly Pomodoros:</h5>

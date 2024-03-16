@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
             clearInterval(activeTimerId);
 
             var intervalid;
-            var totalseconds = 0.2 * 60 //time in seconds
+            var totalseconds = 25 * 60 //time in seconds
             var currentseconds = totalseconds
             var ispomodoro = true //flag to track if its pomodoro or break timer
 
@@ -428,18 +428,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Start break timer
                     startbtn.disabled = false;
                     ispomodoro = false;
-                    totalseconds = 0.1 * 60; // 10 seconds for demonstration, change to 5 * 60 for 5 minutes
+                    totalseconds = 5 * 60; // 10 seconds for demonstration, change to 5 * 60 for 5 minutes
                     currentseconds = totalseconds;
                     skipbtn.style.display = 'inline-block'; // Show skip button for break timer
-                    timerDisplay.textContent = '00:06';
+                    timerDisplay.textContent = '05:00';
                 } else {
                     // Reset pomodoro timer
                     startbtn.disabled = false;
                     ispomodoro = true;
-                    totalseconds = 0.2 * 60; // 20 seconds for demonstration, change to 25 * 60 for 25 minutes
+                    totalseconds = 25 * 60; // 20 seconds for demonstration, change to 25 * 60 for 25 minutes
                     currentseconds = totalseconds;
                     skipbtn.style.display = 'none'; // Hide skip button for pomodoro timer
-                    timerDisplay.textContent = '00:12';
+                    timerDisplay.textContent = '25:00';
                 }
             }
 
