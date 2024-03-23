@@ -32,6 +32,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['*','13.60.22.219']
 ALLOWED_HOSTS = ['*','54.80.152.24','dayoneapp.co']
+CSRF_TRUSTED_ORIGINS = ['https://dayoneapp.co','54.80.152.24']
 
 
 # Application definition
