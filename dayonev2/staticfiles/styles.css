@@ -1,0 +1,110 @@
+
+.brand{
+    color: #00C008;
+    font-weight: bolder;
+}
+
+/* .dropdown-item { */
+    /* width: 200px; Set the width of the card */
+/* } */
+.custom-timer-display {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-right: 2%;
+}
+
+.scroll-container {
+    display: flex; /* Enable horizontal layout */
+    overflow-x: auto; /* Enable horizontal scrolling when needed */
+    white-space: nowrap; /* Prevent line breaks within menu items */
+    scroll-behavior: smooth; /* Ensure smooth scrolling */
+    padding: 0 10px; /* Add some padding for visual consistency */
+  }
+  
+  .scroll-content {
+    flex-grow: 1; /* Stretch content to fill the container */
+    display: flex; /* Force horizontal layout for menu items */
+    align-items: center; /* Vertically center menu items */
+  }
+  
+  /* .nav-tabs { */
+    /* Remove unnecessary properties; styling inherited from scroll-content */
+  /* } */
+  
+  .nav-item {
+    margin-right: 10px; /* Add horizontal spacing between items */
+    display: flex; /* Ensure consistent layout, consider grid if needed */
+    align-items: center; /* Vertically center content within items */
+  }
+  
+  /* .nav-link { */
+    /* No changes needed; styling likely defined elsewhere */
+  /* } */
+  
+  /* .category-sections { */
+    /* Remove unnecessary properties */
+  /* } */
+  
+  /* .category-section { */
+    /* Remove unnecessary properties */
+  /* } */
+  
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 1.5%;
+    align-items: center;
+  }
+  
+.footerone,.footertwo,.footerthree,.footerfour {
+  display: block;  
+  text-align: center;
+  padding: 0%;
+  margin: 0; /* Remove all margins */
+}
+footer p {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em; /* Add spacing around each p element */
+    margin: 0 0.5em; /* Add additional spacing between p elements */
+    color: rgb(59, 59, 59);
+  }
+  
+  /* CSS for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* CSS for the filters */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+/* CSS for pagination */
+.pagination {
+  margin-top: 20px;
+}
+
+.custom-filterbtn{
+  margin: 1%;
+}
+
+.progresstext{
+  margin-top: 1%;
+  margin-bottom: 0px;
+}
