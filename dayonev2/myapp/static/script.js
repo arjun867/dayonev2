@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         
             skipbtn.addEventListener('click', function(event) {
                 event.stopPropagation();
-                timerDisplay.textContent = '00:12'; // Reset the timer display to initial value
+                timerDisplay.textContent = '25:00'; // Reset the timer display to initial value
             
                 // Clear the active timer
                 // clearInterval(activeTimerId);
@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (!ispomodoro) {
                     // Start the pomodoro timer only if it's not already started
                     ispomodoro = true;
-                    totalseconds = 0.2 * 60; // 20 seconds for demonstration, change to 25 * 60 for 25 minutes
+                    totalseconds = 25 * 60; // 20 seconds for demonstration, change to 25 * 60 for 25 minutes
                     currentseconds = totalseconds;
                     skipbtn.style.display = 'none'; // Hide skip button for pomodoro timer
                     // Do not start the timer automatically here
